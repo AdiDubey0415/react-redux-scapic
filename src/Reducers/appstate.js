@@ -1,4 +1,4 @@
-// import { models } from '../Models/index.js';
+import { models } from '../Models/index.js';
 import { 	LOADING,
 			FETCH_DATA_FIRST_TIME,
 			FETCH_DATA_FIRST_TIME_FAILED,
@@ -9,7 +9,7 @@ import { 	LOADING,
 
 const defaultState = {
 	test: '',
-	data: [],
+	data: models,
 	selectedCategory: {
 		categoryList: [],
 		currentModel: {}

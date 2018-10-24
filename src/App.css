@@ -120,6 +120,7 @@
 
 .pagination-links-div {
   width: 100%;
+  padding: 2rem;
 }
 
 .activePage {
@@ -147,4 +148,12 @@
 .ul-class-scrollbar::-webkit-scrollbar-thumb
 {
   background-color: #000000;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.font-size-2rem {
+  font-size: 2rem;
 }

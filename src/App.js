@@ -7,7 +7,6 @@ import { models } from './Models/index.js';
 // Component imports
 import CategoryDetail from './Components/category-detail';
 import CategoryList from './Components/category-list';
-import DemoScene from './Components/threeD-scene';
 
 // Connect to Redux
 import { connect } from 'react-redux';
@@ -39,7 +38,6 @@ class App extends Component {
               className="App-link"
               rel="noopener noreferrer"
             >
-            <DemoScene />
             <Switch>
               <Route exact path="/" 
                       render={(props) => 

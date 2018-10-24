@@ -17,7 +17,7 @@ export default class CategoryList extends Component {
 		    return (
 		      <li key={val.name} className="li-class">
 		        <div className="d-flex flex-column">
-		          <span className="align-self-heading" onClick={() => this.showCategoryDetails(val.name)}>
+		          <span className="align-self-heading cursor-pointer font-size-2rem" onClick={() => this.showCategoryDetails(val.name)}>
 		            {val.name}
 		          </span>
 		          <hr style={{'width' : '100%'}}/>
